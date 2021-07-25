@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"sqliteTest"
 )
 
 func init() {
@@ -14,7 +13,7 @@ func main() {
 
 	fmt.Printf("进入main函数，程序开始执行。。。\n")
 
-	sqliteTest.StartGromTest()
+	//sqliteTest.StartGromTest()
 
 	//ginTest.GinTest()
 
